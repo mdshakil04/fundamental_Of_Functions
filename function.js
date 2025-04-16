@@ -23,19 +23,16 @@ if(num2 > 100){
     const result = num2 - 100;
     // console.log(result)
 }else if(num2 >= 100){
-    const result = num2 + 100;
+    return num2 + 100;
     // console.log(result)
 }
 // -------------------------
 function task1(num){
     if(num % 2 === 0 ){
-        return result = num / 2
-        // console.log(result)
+        return num / 2
     }else{
-        return result = num * 2
-        // console.log(result)
+        return num * 2
     }
 }
-// console.log(task1(61))
 const numResult = task1(53)
 console.log(numResult)
