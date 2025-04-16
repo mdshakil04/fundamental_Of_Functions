@@ -35,4 +35,22 @@ function task1(num){
     }
 }
 const numResult = task1(53)
-console.log(numResult)
+// console.log(numResult)
+// ------Task2 by gpt
+function task2(num){
+    if( num % 3 === 0 && num % 5 === 0){
+        // console.log("FizzBuzz")
+        return "FizzBuzz";
+    }else if(num % 3 === 0){
+        // console.log("Fizz")
+        return "Fizz";
+    }else if ( num % 5 === 0){
+        // console.log("Buzz")
+        return "Buzz";
+    }else{
+        return "Try another number"
+    }
+}
+const result = task2(30)
+console.log(result)
+
