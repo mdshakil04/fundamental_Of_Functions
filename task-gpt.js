@@ -61,5 +61,17 @@ function sumMultiples(num){
     }
     return sum;
 }
-const result = sumMultiples(25);
+// const result = sumMultiples(25);
+// console.log(result)
+
+function getMultiples(num){
+    let numArray = [];
+    for( let i = 1; i <= num ; i++){
+        if (i % 3 === 0 || i % 5 === 0){
+            numArray.push(i)
+        }
+    }
+    return numArray;
+}
+const result = getMultiples(12)
 console.log(result)
