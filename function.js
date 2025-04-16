@@ -36,4 +36,6 @@ function task1(num){
         // console.log(result)
     }
 }
-console.log(task1(61))
+// console.log(task1(61))
+const numResult = task1(53)
+console.log(numResult)
