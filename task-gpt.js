@@ -66,12 +66,20 @@ function sumMultiples(num){
 
 function getMultiples(num){
     let numArray = [];
+    let sum = 0;
     for( let i = 1; i <= num ; i++){
         if (i % 3 === 0 || i % 5 === 0){
             numArray.push(i)
+            sum += i;
         }
     }
-    return numArray;
+    
+    return {
+        the_array_is: numArray,
+        the_sum_of_array_is: sum
+
+    }
+    
 }
 const result = getMultiples(12)
 console.log(result)
