@@ -2,8 +2,9 @@ function school(){
     // console.log("Wake up early in the morning")
 }
 school()
-function multification(a,b){
-    const gunon = a * b;
+// Task 1
+function multification(a,b, c, d){
+    const gunon = a * b * c* d;
     console.log(gunon)
 }
-multification(12, 5)
+multification(12, 5, 6, 7)
