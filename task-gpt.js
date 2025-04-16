@@ -31,6 +31,27 @@ function task2(num){
 // const result = task2(30)
 // console.log(result)
 // -----------Task 3-------------------
+/*Thats My Mistakes
+----------------------
+❌ What’s going wrong:
+
+1..You're declaring sum inside the loop, so it resets to 0 on every iteration — we don’t want that.
+
+2..You’re returning the sum inside the loop, so the function exits after the first match — we want it to keep checking all numbers.
+----------------------
+function sumMultiples(num){
+    for(let i =1; i <= num; i++){
+        let sum = 0;
+        if(i % 3 === 0 || i % 5 === 0){
+             sum += i;
+             return sum;
+        }
+    }
+}
+const result = sumMultiples(125);
+console.log(result)
+*/
+// Correct version of this code
 function sumMultiples(num){
     let sum = 0;
     for(let i =1; i <= num; i++){
