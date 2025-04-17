@@ -77,9 +77,7 @@ function getMultiples(num){
     return {
         the_array_is: numArray,
         the_sum_of_array_is: sum
-
     }
-    
 }
 const result = getMultiples(12)
 console.log(result)
