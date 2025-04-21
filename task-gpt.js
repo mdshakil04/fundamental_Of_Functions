@@ -80,4 +80,4 @@ function getMultiples(num){
     }
 }
 const result = getMultiples(12)
-console.log(result)
+// console.log(result)
