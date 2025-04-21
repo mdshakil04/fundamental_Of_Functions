@@ -81,3 +81,6 @@ function getMultiples(num){
 }
 const result = getMultiples(12)
 // console.log(result)
+let word = "Shakil";
+let letters = word.split("");
+console.log(letters)
