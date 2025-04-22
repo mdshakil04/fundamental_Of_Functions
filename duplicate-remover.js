@@ -11,5 +11,8 @@ function duplicateRemove(array){
     return finalList;
 }
 const friendsList = ["Sofiq", "Sobuj", "Sobuj", "Mizan","Sofiq", "Zahid", "Anowar", "Sobuj"];
-const finalList = duplicateRemove(friendsList);
-console.log("Final list of my Friends is ", finalList)
+const rollNo = [1,2,3,4,5,6,1,3,7,8,5,8,9,10]
+const uniqueRoll = duplicateRemove(rollNo);
+const uniqueFriends = duplicateRemove(friendsList)
+console.log( uniqueRoll)
+console.log(uniqueFriends)
