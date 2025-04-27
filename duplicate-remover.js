@@ -14,5 +14,5 @@ const friendsList = ["Sofiq", "Sobuj", "Sobuj", "Mizan","Sofiq", "Zahid", "Anowa
 const rollNo = [1,2,3,4,5,6,1,3,7,8,5,8,9,10]
 const uniqueRoll = duplicateRemove(rollNo);
 const uniqueFriends = duplicateRemove(friendsList)
-console.log( uniqueRoll)
-console.log(uniqueFriends)
+// console.log( uniqueRoll)
+// console.log(uniqueFriends)
