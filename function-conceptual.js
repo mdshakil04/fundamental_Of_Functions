@@ -1,5 +1,5 @@
 function printName(name, age, money){
-    console.log(`my Name is ${name} , my age is ${age}, I have ${money} taka`)
+    // console.log(`my Name is ${name} , my age is ${age}, I have ${money} taka`)
 }
 printName("Shakil", 25, 23454560)
 function add(x,y){
@@ -8,3 +8,7 @@ function add(x,y){
 }
 const result = add(34, 54);
 console.log(result)
+// function fun1(){
+//     console.log("No parameters, no return")
+// }
+// fun1()
